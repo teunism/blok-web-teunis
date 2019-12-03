@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+/*    transition: .5s;*/
+}
+
+body {
+    margin: 0;
+    background-color: #111111;
+    color: white;
+}
+
+header {
+    /*  background-color: #4CD066;*/
+    background-color: #0026CC;   
+    width: 100%; 
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+    letter-spacing: -.5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 20px 0px 20px 0px;
+    margin: 0% 1% 0% 1%;
+}
+
+#homeButton {
+    margin: 0% 4% 0% 4%;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #4CD066;
+}
+
+/*faq styling*/
+
+#faq {
+    display: flex;
+    flex-direction: row;
+    width: 93vw;
+    margin: auto;
+}
+
+
+#faq section {
+    background-color: #4CD066;
+    margin: 5px;
+}
+
+#faq section:nth-child(1) {
+    width: 38.2%;
+}
+
+#faq section:nth-child(1) ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#faq section:nth-child(2) {
+    width: 61.8%;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    /*  plaats desktop css hier*/
+
+/*    nieuwe mobile css hierboven*/
+}
